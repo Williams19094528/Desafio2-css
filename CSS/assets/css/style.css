@@ -1,0 +1,59 @@
+body {
+  overflow-x: hidden;
+  border: solid 20px salmon;
+  margin: 0;
+}
+
+.cabezera {
+  height: 300px;
+  background-image: url(https://images.unsplash.com/photo-1530521954074-e64f6810b32d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D);
+  background-repeat: no-repeat;
+  background-size: cover; /* Cambiado a cover para que la imagen cubra completamente el contenedor */
+  background-color: #333;
+  background-position: center;
+  border: solid 2px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(211, 238, 237);
+  font-weight: bolder;
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.pie {
+  background-color: #333; /* Ajusta el color de fondo del pie de página */
+  color: white;
+  text-align: center;
+  padding: 5px;
+  width: 100%;
+}
+
+.img-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.sec-1 {
+  margin: 10px;
+}
+
+h2 {
+  background-color: antiquewhite;
+}
+.picture {
+  width: 300px; /* Ajusta el ancho de las imágenes */
+  height: auto; /* Mantiene la proporción original de la imagen */
+  border: 1px solid #ddd; /* Borde opcional para las imágenes */
+}
+#buda {
+  margin-left: 15px;
+}
